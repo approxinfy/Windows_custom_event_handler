@@ -1,0 +1,10 @@
+open Task Scheduler
+select "Create Basic Task"
+Define task name and description, click Next
+In"Trigger" pane select "when a specific event is logged"
+Select Log type ex: Application, Define Source and Event ID, click Next
+In "Action" pane select "Start a program", click Next
+Define Program/Script path, click Next
+check "Open the properties dialogue ...", click Finish
+Choose "Run whether user is logged on or not"
+check "Do not store password...", "Run with highest privileges", click ok

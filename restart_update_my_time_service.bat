@@ -1,0 +1,1 @@
+net stop "update_my_time" & net start "update_my_time"

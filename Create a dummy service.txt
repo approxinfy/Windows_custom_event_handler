@@ -1,0 +1,8 @@
+Create a dummy.bat file in C:\ with contents "pause"
+Download NSSM from http://www.nssm.cc/download
+Extract nssm.exe (x86 or x64) to C:\Windows\nssm.exe
+Run "nssm install"
+Path: C:\dummy.bat
+Service name - As you wish!
+Hit "Install service"
+After that, you'll have a service named after step 6, which you can start, stop, restart...
